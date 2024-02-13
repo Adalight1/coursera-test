@@ -1,0 +1,54 @@
+#middle{
+    display: flex;
+    justify-content: space-between;
+    min-width: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 40px; 
+    padding-right: 40px;  
+}
+
+    .box1{
+        background-color: rgb(255, 255, 255);
+        height: 5%;
+        width: 200%;
+        padding-left: 20px;
+        padding-right: 20px;    
+    }
+        p{
+            
+        }
+    #description{
+        margin: 20px;
+    }
+    #another{
+        margin: 20px;
+    }
+    #lefy{
+        margin: 20px;
+    }
+body{
+    background-color: burlywood;
+}
+
+h1{
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 0px;
+}
+
+.my{
+  float: right;
+  padding-top: 0%;
+  padding: 3px 12px 3px 12px;
+}
+.break{
+    padding-top: 40px;
+}
+@media (min-width: 40px) and (max-width: 929px){
+    #middle{
+        width: 100%;
+    }
+}
